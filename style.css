@@ -1,0 +1,73 @@
+.circle1{
+    width: 200px;
+    height: 200px;
+    border-radius:50% ;
+    background-color: aquamarine;
+    align-items:  center;
+    display: flex;
+    justify-content: center;
+    transform: translatex(-200px);
+    transform: rotateX(180deg);
+    transform: skew(30deg);
+    /*display: block*/;
+    /*left: 0;
+    right: ;*/
+    transition-timing-function:  ease-in-out;
+    transition-delay: 0.5s;
+    animation-name: rainbow;
+    animation-duration: 10s ;
+    -o-animation-iteration-count: infinite;
+
+
+}
+
+@keyframes rainbow{
+  0%{
+    background-color: indigo;
+ }
+ 15%{
+     background-color: lawngreen;
+ }
+ 30%{
+     background-color: blue;
+ }
+ 58%{
+     background-color: yellow;
+ }
+ 80%{
+     background-color: red;
+ }
+ 100%{
+     background-color: black;
+ }
+
+}
+
+/*
+.circle1:hover{
+    transform: translate(200px)   skew() scaleY(1.5);
+    transition-property: all
+    transition-timing-function : cubic-bezier() ;/*control the speed
+    transition-duration: ;
+    transition-delay: 0.5s;
+}*/
+
+.circle1:hover{
+    background-color: blue;
+    /*right: 1000px;
+    left: ;*/
+}
+.circle2{
+    width: 200px;
+    height: 200px;
+    border-radius:50% ;
+    background-color: goldenrod ;
+    align-items:  center;
+    display: flex;
+    justify-content: center;
+    transform: translatex(-200px);
+
+    margin-left: 800px;
+    margin-top: -200px;
+
+}
